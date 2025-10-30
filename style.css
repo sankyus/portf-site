@@ -1,0 +1,41 @@
+/* 1. Estilo para o corpo da página (Dark Mode) */
+body {
+    background-color: #1e1e1e; /* Fundo cinza bem escuro */
+    color: #ffffff;             /* Texto principal branco */
+    font-family: 'Arial', sans-serif; /* Fonte simples e legível */
+    margin: 40px;               /* Espaço ao redor do conteúdo */
+}
+
+/* 2. Estilo para Títulos */
+h1, h2 {
+    color: #4CAF50; /* Cor de destaque verde (moderno) */
+    border-bottom: 2px solid #383838; /* Linha sutil abaixo */
+    padding-bottom: 10px;
+}
+
+/* 3. Estilo para Parágrafos */
+p {
+    font-size: 1.1em; /* Um pouco maior que o padrão */
+    line-height: 1.6;
+}
+
+/* 4. Estilo para Links (Âncoras) */
+a {
+    color: #00bcd4; /* Cor ciano brilhante para links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+/* Efeito ao passar o mouse sobre o link */
+a:hover {
+    text-decoration: underline; /* Aparece sublinhado só no hover */
+    color: #79d7e3;
+}
+
+/* 5. Estilo para Imagens */
+img {
+    max-width: 100%; /* Garante que a imagem não saia da tela */
+    height: auto;
+    border-radius: 8px; /* Cantos levemente arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para destacar */
+    margin-top: 20px;
+}
